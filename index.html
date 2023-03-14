@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+
+  <!-- jQuery and Bootstrap JavaScript -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+  <h1
+  class="text-center"
+  style="color: black; text-shadow: -4px 4px 4px grey; padding: 15px;"
+>
+  Jared and Josh's Resort
+</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-lightgreen">
+    <a class="navbar-brand" href="#">
+      <img
+        src="https://i.ibb.co/Hn9Dk3s/newlogo2-png.png"
+        style="max-width: 75px; max-height: 75px;"
+      />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto text-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Yurts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Activities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./reservations.php">Reservation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Comments</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <br />
+
+  <p class="index-spacing">
+    Jared and Josh's Resort Resort offers a special lodging experience on the New Jersey Eastern
+    Coast. <br />
+    Relax in serenity with Panoramic views of the Atlantic Ocean.
+  </p>
+  <ul class="index-spacing">
+    <li>Private yurts with decks overlooking the ocean</li>
+    <li>Activities lodge with fireplace and gift shop</li>
+    <li>Nightly fine dining at the Overlook Cafe</li>
+    <li>Heated outdoor pool and whirlpool</li>
+    <li>Guided hiking tours of the redwoods</li>
+  </ul>
+  <p class="index-spacing">
+  Jared and Josh's Resort <br />
+  One Normal Ave, Montclair <br />
+  New Jersey NJ 07043 <br />
+  973-655-4166
+  </br>
+
+  <br />
+</body>
+
+<style>
+  /* Media Query for larger screens */
+  @media (min-width: 992px) {
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      margin-left: auto;
+    }
+    .navbar-collapse {
+      display: block !important;
+    }
+  }
+</style>
